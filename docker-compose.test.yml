@@ -1,0 +1,9 @@
+services:
+  postgres-test:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: conference_test
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
