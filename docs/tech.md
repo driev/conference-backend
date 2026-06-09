@@ -89,3 +89,4 @@ npx tsx scripts/create-org.ts "JSConf EU"
 - **Frontend** — out of scope per instructions.
 - **Super admin endpoints** — organisation creation is handled via a local script for now. A real multi-tenant
   deployment would need a super admin interface for provisioning organisations without direct database access.
+- **Magic strings** — hard-coded strings should be replaced with constants.
